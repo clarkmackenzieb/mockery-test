@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+  color: #392f5a;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App {
+  background-color: #BDE0FE;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.left {
+  background-color: #CDB4DB;
+  width: 200px;
+  flex: 0 1 auto;
+}
+
+.footer-side {
+  background-color: #FFC8DD;
+  flex-grow: 1;
+}
+
+.button-container {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-center {
+  background-color: #FFAFCC;
+  flex-grow: 6;
+}
+
+.app-footer {
+  display: flex;
+  flex-direction: row;
+  flex: 0 1 100px;
+}
+
+.app-header {
+  background-color: #A2D2FF;
+  flex: 0 1 auto;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.app-content {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+}
+
+.examples {
+  flex: 1 1 auto;
+}
+
+.example-button {
+  background-color: #FFC8DD;
+  height: 40px;
+  width: 120px;
+  border-radius: 20px;
+  border: 2px solid #392f5a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

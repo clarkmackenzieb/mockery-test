@@ -1,0 +1,26 @@
+.user-image {
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+}
+
+.user-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 500px;
+  border-bottom: 3px solid #392f5a;
+  margin-top: 20px;
+}
+
+.about-section {
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+.user-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
